@@ -5,7 +5,6 @@ void GetSpiral(int[,] array)
     int number = 1;
     int i = 0;
     int j = 0;
-
     while (number <= array.GetLength(0) * array.GetLength(1))
     {
         array[i, j] = number;

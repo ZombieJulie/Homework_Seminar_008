@@ -1,8 +1,6 @@
-﻿
-/* Задача 58: Задайте две матрицы. 
+﻿/* Задача 58: Задайте две матрицы. 
 Напишите программу, которая будет находить произведение двух матриц.
 */
-
 
 int[,] GetArray(int m, int n, int min, int max)
 {
@@ -17,7 +15,6 @@ int[,] GetArray(int m, int n, int min, int max)
     return result;
 }
 
-
 void PrintArray(int[,] inArray)
 {
     for (int i = 0; i < inArray.GetLength(0); i++)
@@ -29,7 +26,6 @@ void PrintArray(int[,] inArray)
         Console.WriteLine();
     }
 }
-
 
 int[,] GetProduct(int[,] arrA, int[,] arrB, int r, int c)
 {

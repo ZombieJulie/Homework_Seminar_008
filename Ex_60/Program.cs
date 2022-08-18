@@ -1,5 +1,4 @@
-﻿
-/* Задача 60. Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. 
+﻿/* Задача 60. Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. 
 Напишите программу, которая будет построчно выводить массив, 
 добавляя индексы каждого элемента.
 */
@@ -18,7 +17,6 @@ int[,,] GetArray(int m, int n, int p, int min, int max)
                 {
                     result[i, j, k] = num;
                 }
-
             }
         }
     }
@@ -40,7 +38,6 @@ bool CheckRandom(int[,,] arr, int row, int col, int layer, int num)
     return false;
 }
 
-
 void PrintArray(int[,,] inArray)
 {
     for (int i = 0; i < inArray.GetLength(0); i++)
@@ -56,13 +53,10 @@ void PrintArray(int[,,] inArray)
     }
 }
 
-
 Console.Write("Введите количество строк массива: ");
 int rows = int.Parse(Console.ReadLine());
-
 Console.Write("Введите количество столбцов массива: ");
 int columns = int.Parse(Console.ReadLine());
-
 Console.Write("Введите количество слоев массива: ");
 int layers = int.Parse(Console.ReadLine());
 
